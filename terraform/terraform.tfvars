@@ -1,0 +1,12 @@
+project                      = "olvr-281213"
+region                       = "europe-west2"
+name                         = "olvr-tech-bucket"
+bucket_location              = "EU"
+domains                      = ["olvr.tech", "joniroliveira.xyz"]
+credentials_path             = ".credentials/sa.json"
+remote_state_bucket          = "terraform-olvr-state-bucket"
+remote_state_prefix          = "olvr/state"
+cert_prefix                  = "olvr-cert-"
+cert_byte_length             = 4
+terraform_cloud_organization = "jonioliveira"
+terraform_cloud_workspace    = "tf-web-from-bucket"

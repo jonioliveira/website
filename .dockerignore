@@ -1,0 +1,18 @@
+.git
+.gitignore
+Dockerfile
+docker-compose.yaml
+README.md
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+tfplan
+
+.env
