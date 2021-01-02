@@ -1,18 +1,18 @@
-# tf-web-from-bucket
+# My website
 
 ## Components
 
 The terraform script contains 2 modules:
 
--   `terraform/*.tf`: The root module that contains the scripts to deploy website in a bucket
--   `terraform/modules/setup-remote-state/*.tf`: A module to setup the GCP Storage bucket used as the remote state backend of the root module.
+- `terraform/*.tf`: The root module that contains the scripts to deploy website in a bucket
+- `terraform/modules/setup-remote-state/*.tf`: A module to setup the GCP Storage bucket used as the remote state backend of the root module.
 
 ## Development Requirements
 
 You will need to have installed the following:
 
--   [Docker](https://www.docker.com/products/docker-desktop) (>= 18.09.2).
--   [Docker Compose](https://docs.docker.com/compose/install/) (>= 1.23.2).
+- [Docker](https://www.docker.com/products/docker-desktop) (>= 18.09.2).
+- [Docker Compose](https://docs.docker.com/compose/install/) (>= 1.23.2).
 
 Note: The project was created with this specific versions but older versions might also work.
 
@@ -46,8 +46,8 @@ The PR title should start with the issue number, for example `1057: Add user gro
 
 All PRs should have one of the following labels:
 
--   feature
--   bugfix
+- feature
+- bugfix
 
 All PRs should have the requester as assignee.
 

@@ -6,3 +6,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./terraform:/terraform
+    environment:
+      - TF_CLI_CONFIG_FILE=/terraform/.terraformrc-credentials
+      - GOOGLE_APPLICATION_CREDENTIALS=/terraform/.credentials/sa.json
