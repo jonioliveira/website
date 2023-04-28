@@ -1,19 +1,18 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Quick Preview API',
+    description: `API to quickly deploy a docker container in a kube namespace`,
+    href: 'https://github.com/jonioliveira/quick-preview-api',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'This website',
+    description: `My personal website with my thoughts`,
+    href: 'https://github.com/jonioliveira/website',
+  },
+  {
+    title: 'Go HTTP Template',
+    description: `Template to start a new go http project, with formaters loggers and inspired in go-standard-project structure`,
+    href: 'https://github.com/jonioliveira/website',
   },
 ]
 

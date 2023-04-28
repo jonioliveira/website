@@ -6,6 +6,7 @@ import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
+import Typewriter from 'typewriter-effect'
 
 const LayoutWrapper = ({ children }) => {
   return (
@@ -14,17 +15,16 @@ const LayoutWrapper = ({ children }) => {
         <header className="flex items-center justify-between py-10">
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
-              <div className="flex items-center justify-between">
-                <div className="mr-3">
-                  <Logo />
-                </div>
-                {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="hidden h-6 text-2xl font-semibold sm:block">
-                    {siteMetadata.headerTitle}
-                  </div>
-                ) : (
-                  siteMetadata.headerTitle
-                )}
+              <div className="text-primary-color dark:text-primary-color-dark flex items-center justify-between text-blue-400">
+                $/.
+                <Typewriter
+                  options={{
+                    strings: ['joni', 'joni-rodrigues-oliveira', 'joni-oliveira'],
+                    autoStart: true,
+                    loop: true,
+                    pause: 300,
+                  }}
+                />
               </div>
             </Link>
           </div>

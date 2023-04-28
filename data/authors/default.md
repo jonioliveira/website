@@ -1,16 +1,16 @@
 ---
-name: Tails Azimuth
+name: Jóni Oliveira
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+occupation: Cloud Software Engineer
+company: Apple
+email: me@jonioliveira.dev
+twitter: https://twitter.com/joniroliveira
+linkedin: https://www.linkedin.com/in/jonioliveira
+github: https://github.com/jonioliveira
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Experienced Software Engineer with a demonstrated history of working in the information technology and services industry.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Skilled in Go, Rust, Java, Cloud Based Application, Distributed services, and Linux.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Strong engineering professional with a Faculty of Sciences and Technology focused Master in Informatics Engineering (path Software Engineering) from University of Coimbra.
