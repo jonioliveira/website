@@ -19,9 +19,11 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="mb-2 text-2xl font-extrabold leading-11 tracking-tight text-slate-900 dark:text-slate-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            I'm <span className="dark:text-primary-color-dark text-blue-400">Jóni Oliveira</span>, a
-            software developer that spend my personal time investigating about cloud development.
+          <h1 className="mb-2 text-2xl font-bold leading-11 tracking-tight text-slate-900 dark:text-slate-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Hello! I'm{' '}
+            <span className="dark:text-primary-color-dark text-blue-400">Jóni Oliveira</span>, a
+            software engineer that's spends time investigating about cloud, developer efficency and
+            Go.
           </h1>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
